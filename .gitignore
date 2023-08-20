@@ -1,2 +1,4 @@
 # ignore all the ide project settings files
 .settings/
+# and ignore target files
+target/
