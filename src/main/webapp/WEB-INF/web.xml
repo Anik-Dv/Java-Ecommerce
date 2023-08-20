@@ -1,0 +1,70 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <listener>
+  	<listener-class>Listener.UserCount</listener-class>
+  </listener>
+  <servlet>
+  	<servlet-name>RegistrationServlet</servlet-name>
+  	<display-name>RegistrationServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlets.RegistrationServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlets.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddOperationProductAndCategories</servlet-name>
+  	<display-name>AddOperationProductAndCategories</display-name>
+  	<description></description>
+  	<servlet-class>servlets.AddOperationProductAndCategories</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserCount</servlet-name>
+  	<display-name>UserCount</display-name>
+  	<description></description>
+  	<servlet-class>servlets.UserCount</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Checkout</servlet-name>
+  	<display-name>Checkout</display-name>
+  	<description></description>
+  	<servlet-class>servlets.Checkout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegistrationServlet</servlet-name>
+  	<url-pattern>/RegistrationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddOperationProductAndCategories</servlet-name>
+  	<url-pattern>/AddOperationProductAndCategories</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserCount</servlet-name>
+  	<url-pattern>/UserCount</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Checkout</servlet-name>
+  	<url-pattern>/Checkout</url-pattern>
+  </servlet-mapping>
+</web-app>
